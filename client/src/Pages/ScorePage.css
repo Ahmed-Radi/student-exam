@@ -1,0 +1,30 @@
+.score-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.result {
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.result__score {
+    color: red;
+}
+.try-button {
+    border-radius: 10px;
+    border: none;
+    padding: 10px 40px;
+    color: #000;
+    background-color: #fff;
+    transition: all 0.5s ease-in-out;
+    text-transform: capitalize;
+    font-size: 19px;
+}
+.try-button:hover {
+    background-color: #000;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}

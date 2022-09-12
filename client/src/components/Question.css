@@ -1,0 +1,12 @@
+.question-header {}
+.question-header__title {
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px 0;
+}
+.question-header__question {
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px 0;
+    text-transform: capitalize;
+}
